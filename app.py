@@ -7,9 +7,9 @@ REGION = "us-east-1"
 KNOWLEDGE_BASE_ID = "LDM48BQ6MA"
 
 session = boto3.Session(
-    aws_access_key_id=st.secrets["AKIA54WIGA6WK2PAXXGV"],
-    aws_secret_access_key=st.secrets["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"],
-    region_name=st.secrets["us-east-1"]
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"],
+    region_name=st.secrets["AWS_DEFAULT_REGION"]
 )
 
 # Bedrock Clients
