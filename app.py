@@ -74,7 +74,7 @@ if st.button("Run Simulation"):
             "type": "KNOWLEDGE_BASE",
             "knowledgeBaseConfiguration": {
                 "knowledgeBaseId": KNOWLEDGE_BASE_ID,
-                "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"            }
+                "modelArn": "arn:aws:bedrock:us-east-1:954976307116:inference-profile/us.anthropic.claude-opus-4-1"            }
         }
     )
 
