@@ -75,4 +75,4 @@ if st.button("Run Simulation"):
     result = response["output"]["text"]
 
     st.subheader("Simulation Result")
-    st.write(result)4
+    st.write(result)
