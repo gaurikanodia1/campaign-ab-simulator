@@ -6,6 +6,12 @@ import json
 REGION = "us-east-1"
 KNOWLEDGE_BASE_ID = "LDM48BQ6MA"
 
+session = boto3.Session(
+    aws_access_key_id=st.secrets["AKIA54WIGA6WK2PAXXGV"],
+    aws_secret_access_key=st.secrets["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"],
+    region_name=st.secrets["us-east-1"]
+)
+
 # Bedrock Clients
 bedrock_runtime = boto3.client(
     service_name="bedrock-runtime",
