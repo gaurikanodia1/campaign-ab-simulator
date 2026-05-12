@@ -74,7 +74,7 @@ if st.button("Run Simulation"):
             "type": "KNOWLEDGE_BASE",
             "knowledgeBaseConfiguration": {
                 "knowledgeBaseId": KNOWLEDGE_BASE_ID,
-                "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/global.anthropic.claude-sonnet-4-5-20250929-v1:0"            }
+                "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"            }
         }
     )
 
